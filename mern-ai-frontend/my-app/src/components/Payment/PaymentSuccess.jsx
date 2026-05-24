@@ -2,7 +2,7 @@ import React from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import { FaCheckCircle, FaTimesCircle, FaSpinner } from "react-icons/fa";
 import { useQuery } from "@tanstack/react-query";
-import { verifyPaymentAPI } from "../../apis/razorpayPayment/razorpayPayment";
+import { verifyPaymentAPI } from "../../apis/RazorpayPayment/RazorpayPayment";
 
 const PaymentSuccess = () => {
   // 🔥 Razorpay params

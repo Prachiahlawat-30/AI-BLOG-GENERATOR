@@ -27,8 +27,7 @@ export const createRazorpayOrderAPI = async (payment) => {
   );
 
   return response?.data;
-  console.log("TOKEN:", req.cookies.token);
-console.log("USER:", req.user);
+
 };
 
 // ===== VERIFY PAYMENT =====
